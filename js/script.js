@@ -158,5 +158,26 @@ function initializeSwiper() {
     }
 }
 
+let swiper2;
+function initializeSwiper2() {
+    if (window.innerWidth < 768 && !swiper2) {
+        swiper2 = new Swiper('#ai-solutions .swiper', {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: '.ai-next',
+                prevEl: '.ai-prev',
+            },
+        });
+    } else if (window.innerWidth >= 768 && swiper2) {
+        swiper2.destroy(true, true);
+        swiper2 = null;
+    }
+}
+
 window.addEventListener('load', initializeSwiper);
 window.addEventListener('resize', initializeSwiper);
+
+window.addEventListener('load', initializeSwiper2);
+window.addEventListener('resize', initializeSwiper2);
