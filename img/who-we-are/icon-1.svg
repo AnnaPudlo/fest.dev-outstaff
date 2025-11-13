@@ -1,0 +1,8 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="30" cy="30" r="28.8" stroke="#0FBEC9" stroke-width="2.4"/>
+<line x1="30.4065" y1="1.2" x2="30.4065" y2="4.8" stroke="#0FBEC9" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="30.4065" y1="55.2" x2="30.4065" y2="58.8" stroke="#0FBEC9" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="58.0065" y1="30.2" x2="54.4065" y2="30.2" stroke="#0FBEC9" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="5.00654" y1="30.2" x2="1.40654" y2="30.2" stroke="#0FBEC9" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M35.2788 34.8613C35.2316 34.9515 35.158 35.0251 35.0679 35.0723L14.2065 46L25.2065 25L46.2065 14L35.2788 34.8613ZM30.2065 27C28.5497 27 27.2065 28.3431 27.2065 30C27.2065 31.6569 28.5497 33 30.2065 33C31.8634 33 33.2065 31.6569 33.2065 30C33.2065 28.3431 31.8634 27 30.2065 27Z" fill="#0FBEC9"/>
+</svg>
